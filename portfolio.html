@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ranjith P — Cyber Security Portfolio | Future SOC Analyst</title>
+<meta name="description" content="Portfolio of Ranjith P — B.Sc Computer Science with Cyber Security student at SRM Ramapuram. Aspiring SOC Analyst skilled in log analysis, Nmap scanning, network monitoring, and incident response." />
+<meta name="author" content="Ranjith P" />
+<meta property="og:title" content="Ranjith P — Cyber Security Portfolio" />
+<meta property="og:description" content="Aspiring Blue Team / SOC Analyst. Log analysis · Nmap · Network monitoring · Incident response." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/portfolio.css" />
+</head>
+<body>
+
+<canvas id="matrix-bg" aria-hidden="true"></canvas>
+
+<!-- NAV -->
+<header class="nav">
+  <a href="#home" class="brand">
+    <span class="brand-dot"></span>RANJITH<span class="brand-accent">.</span>
+  </a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="nav-cta" href="https://www.linkedin.com/in/ranjithcyber" target="_blank" rel="noopener">
+    Hire Me <span>›</span>
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <div class="chip">
+      <span class="chip-dot"></span> Available for SOC Analyst Internships & Roles
+    </div>
+    <h1 class="hero-title">
+      Securing the internet,<br />
+      <span class="grad">one packet at a time.</span>
+    </h1>
+    <p class="hero-sub">
+      Hi, I'm <strong>Ranjith P</strong> — a Cyber Security student at
+      SRM Ramapuram University, building my career toward the
+      <strong>Blue Team</strong> as a future <strong>SOC Analyst</strong>.
+      I live in logs, love Nmap, and treat every alert like a mystery worth solving.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">View My Work <span>›</span></a>
+      <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+    </div>
+
+    <div class="hero-stats">
+      <div><b>2nd</b><span>Year B.Sc CS (Cyber Security)</span></div>
+      <div><b>1</b><span>Internship Completed</span></div>
+      <div><b>3+</b><span>Security Projects</span></div>
+      <div><b>Blue</b><span>Team Focused</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="section-head">
+    <span class="eyebrow">// about me</span>
+    <h2>The analyst behind the terminal.</h2>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-card">
+      <p>
+        I'm currently pursuing <strong>B.Sc Computer Science with Cyber Security</strong>
+        at <strong>SRM Ramapuram University</strong>. My passion sits where
+        technology meets defense — understanding how attacks unfold and
+        engineering the visibility to catch them early.
+      </p>
+      <p>
+        I've spent the last year going deep into <strong>log analysis, packet inspection,
+        vulnerability scanning</strong> and <strong>incident response workflows</strong> —
+        the daily bread of a Security Operations Center. I recently completed a
+        Cyber Security internship at <strong>Mindluster</strong>, where I put
+        theory into practice on real detection and triage tasks.
+      </p>
+      <p>
+        Outside of the terminal, you'll find me <strong>trekking</strong> new trails,
+        <strong>painting</strong>, or exploring new places. Curiosity is my
+        default state — whether it's an unusual outbound connection or a hill I haven't climbed.
+      </p>
+    </div>
+
+    <aside class="about-side">
+      <h3>Quick Facts</h3>
+      <ul>
+        <li><span>Name</span><b>Ranjith P</b></li>
+        <li><span>Focus</span><b>Blue Team · SOC</b></li>
+        <li><span>Degree</span><b>B.Sc CS (Cyber Sec)</b></li>
+        <li><span>Year</span><b>2nd Year</b></li>
+        <li><span>University</span><b>SRM Ramapuram</b></li>
+        <li><span>Location</span><b>Chennai, India</b></li>
+      </ul>
+      <a class="btn btn-ghost btn-block" href="https://www.linkedin.com/in/ranjithcyber" target="_blank" rel="noopener">Connect on LinkedIn</a>
+    </aside>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <div class="section-head">
+    <span class="eyebrow">// capabilities</span>
+    <h2>Skills built for the SOC floor.</h2>
+    <p class="section-sub">Hands-on with the tools and techniques that make up a modern blue team stack.</p>
+  </div>
+
+  <div class="skills-grid">
+    <article class="skill">
+      <div class="skill-icon">📊</div>
+      <h3>Log Analysis</h3>
+      <p>Parsing, correlating and hunting through system, network, and application logs to surface suspicious behavior.</p>
+      <div class="tag-row"><span>Splunk-style queries</span><span>Wazuh</span><span>Sysmon</span></div>
+    </article>
+
+    <article class="skill">
+      <div class="skill-icon">🛰️</div>
+      <h3>Nmap Scanning</h3>
+      <p>Host discovery, service enumeration, version detection and NSE scripting for reconnaissance & auditing.</p>
+      <div class="tag-row"><span>-sS -sV -A</span><span>NSE</span><span>Recon</span></div>
+    </article>
+
+    <article class="skill">
+      <div class="skill-icon">📡</div>
+      <h3>Network Monitoring</h3>
+      <p>Watching traffic patterns, spotting anomalies and understanding what "normal" looks like on the wire.</p>
+      <div class="tag-row"><span>Wireshark</span><span>tcpdump</span><span>Zeek basics</span></div>
+    </article>
+
+    <article class="skill">
+      <div class="skill-icon">🚨</div>
+      <h3>Incident Response</h3>
+      <p>Triage, containment and root-cause thinking. Building the muscle memory of a first-line SOC analyst.</p>
+      <div class="tag-row"><span>Triage</span><span>Playbooks</span><span>MITRE ATT&CK</span></div>
+    </article>
+
+    <article class="skill">
+      <div class="skill-icon">🧪</div>
+      <h3>Threat Intelligence</h3>
+      <p>Enriching IOCs with sources like VirusTotal & AbuseIPDB to prioritize what matters.</p>
+      <div class="tag-row"><span>VirusTotal</span><span>AbuseIPDB</span><span>OSINT</span></div>
+    </article>
+
+    <article class="skill">
+      <div class="skill-icon">💻</div>
+      <h3>Scripting</h3>
+      <p>Automating repetitive analyst tasks with Python — parsing, enrichment, and report generation.</p>
+      <div class="tag-row"><span>Python</span><span>Pandas</span><span>Requests</span></div>
+    </article>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <div class="section-head">
+    <span class="eyebrow">// portfolio</span>
+    <h2>Selected Projects</h2>
+    <p class="section-sub">Small, focused builds that reflect how I think as a defender.</p>
+  </div>
+
+  <div class="projects-grid">
+    <article class="project featured">
+      <div class="project-media">
+        <img src="/projects/malicious-ip.jpg" alt="Malicious IP Intelligence System project preview" loading="lazy" />
+      </div>
+      <div class="project-body">
+        <span class="pill">Featured Project</span>
+        <h3>Malicious IP Intelligence System</h3>
+        <p>
+          A Python tool that ingests IPs from logs and enriches them against
+          VirusTotal and AbuseIPDB, then classifies and reports on the
+          highest-risk indicators — the kind of automation that speeds up
+          real SOC triage.
+        </p>
+        <div class="tag-row">
+          <span>Python</span><span>VirusTotal API</span><span>AbuseIPDB</span><span>Pandas</span><span>Threat Intel</span>
+        </div>
+        <ul class="project-points">
+          <li>Collects IPs from raw log sources</li>
+          <li>Queries reputation APIs & aggregates scores</li>
+          <li>Classifies IPs by risk tier</li>
+          <li>Generates analyst-ready reports</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project-body">
+        <span class="pill pill-alt">Blue Team Lab</span>
+        <h3>Nmap Recon & Service Audit</h3>
+        <p>Structured recon workflow using Nmap flags and NSE scripts to enumerate services, detect versions, and surface misconfigurations on lab hosts.</p>
+        <div class="tag-row"><span>Nmap</span><span>NSE</span><span>Recon</span></div>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project-body">
+        <span class="pill pill-alt">Detection</span>
+        <h3>Log Analysis Playbook</h3>
+        <p>A personal playbook of queries and detection ideas for common attacker behaviors — brute force, lateral movement, suspicious PowerShell.</p>
+        <div class="tag-row"><span>Log Analysis</span><span>MITRE ATT&CK</span><span>Detection</span></div>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project-body">
+        <span class="pill pill-alt">Monitoring</span>
+        <h3>Home Network Traffic Watch</h3>
+        <p>Wireshark-based monitoring of my home network to baseline normal behavior and flag unexpected outbound connections.</p>
+        <div class="tag-row"><span>Wireshark</span><span>tcpdump</span><span>Baselining</span></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section class="section" id="certificates">
+  <div class="section-head">
+    <span class="eyebrow">// credentials</span>
+    <h2>Certifications & Internship</h2>
+    <p class="section-sub">Verified learning and real-world experience.</p>
+  </div>
+
+  <div class="cert-grid">
+    <a class="cert" href="/certificates/mindluster-internship.jpg" target="_blank" rel="noopener">
+      <img src="/certificates/mindluster-internship.jpg" alt="Mindluster Cyber Security Internship Certificate" loading="lazy" />
+      <div class="cert-body">
+        <span class="pill">Internship</span>
+        <h3>Cyber Security Internship</h3>
+        <p><b>Mindluster</b> · 05 Apr 2026 – 04 May 2026</p>
+        <span class="cert-id">Certificate ID: MIND-INT-601</span>
+      </div>
+    </a>
+
+    <a class="cert" href="/certificates/cisco-cybersecurity.jpg" target="_blank" rel="noopener">
+      <img src="/certificates/cisco-cybersecurity.jpg" alt="Cisco Introduction to Cybersecurity Certificate" loading="lazy" />
+      <div class="cert-body">
+        <span class="pill pill-alt">Certification</span>
+        <h3>Introduction to Cybersecurity</h3>
+        <p><b>Cisco Networking Academy</b> · 12 Jan 2026</p>
+        <span class="cert-id">Foundational Cybersecurity Concepts</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- INTERESTS -->
+<section class="section" id="interests">
+  <div class="section-head">
+    <span class="eyebrow">// off the clock</span>
+    <h2>Beyond the terminal.</h2>
+  </div>
+  <div class="interests">
+    <div><span>🥾</span><b>Trekking</b><p>Chasing summits and quiet trails.</p></div>
+    <div><span>🎨</span><b>Painting</b><p>Slowing down and getting hands messy.</p></div>
+    <div><span>🗺️</span><b>Traveling</b><p>New places, new perspectives.</p></div>
+    <div><span>🧠</span><b>Learning</b><p>Deep-diving tech & internet security.</p></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact" id="contact">
+  <div class="contact-card">
+    <span class="eyebrow">// contact</span>
+    <h2>Let's build a safer internet, together.</h2>
+    <p>
+      Open to <strong>SOC Analyst internships</strong>, entry-level blue team roles,
+      and collaborations on security tooling. Recruiters — I'd love to hear from you.
+    </p>
+
+    <div class="contact-actions">
+      <a class="btn btn-primary" href="https://www.linkedin.com/in/ranjithcyber" target="_blank" rel="noopener">
+        LinkedIn · @ranjithcyber <span>›</span>
+      </a>
+      <a class="btn btn-ghost" href="mailto:ranjithdevloper47@gmail.com">
+        Email Me
+      </a>
+    </div>
+
+    <div class="contact-meta">
+      <div><span>Email</span><a href="mailto:ranjithdevloper47@gmail.com">ranjithdevloper47@gmail.com</a></div>
+      <div><span>LinkedIn</span><a href="https://www.linkedin.com/in/ranjithcyber" target="_blank" rel="noopener">linkedin.com/in/ranjithcyber</a></div>
+      <div><span>Location</span><a>Chennai, India</a></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div>© <span id="year"></span> Ranjith P · Built with focus, coffee & curiosity.</div>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/ranjithcyber" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="mailto:ranjithdevloper47@gmail.com">Email</a>
+    <a href="#home">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="/portfolio.js"></script>
+</body>
+</html>
